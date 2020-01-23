@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, .container{
+    background-color: #ffffff;
+    color:#0d1521;
+    /* box-shadow: 5px 10px #0d1521; */
+   background-color: darkgray;
+}
+
+.parent{
+    position: relative;
+  }
+
+.cent{
+position: absolute;
+z-index: 100;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.img{
+    border: 10px solid black;
+}
+a{
+    color:  white;
+    
+}
+
+img {
+    border-radius: 10%;
+}
+/*
+.circ {
+    background-color: black;
+    border-radius: 50%;
+        height:5 rem;
+         width:5 rem;
+}*/
